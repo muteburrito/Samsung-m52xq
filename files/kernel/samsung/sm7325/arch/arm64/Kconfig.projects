@@ -1,0 +1,54 @@
+config SEC_A52SXQ_PROJECT
+	default n
+	bool "Samsung A52SXQ Project"
+	help
+	  Support for Samsung A52SXQ Project
+
+config MACH_A52SXQ_EUR_OPEN
+	default n
+	bool "Samsung A52SXQ EUR OPEN"
+	depends on SEC_A52SXQ_PROJECT
+	help
+	  Support for Samsung A52SXQ EUR OPEN device.
+
+config MACH_A52SXQ_KOR_SINGLE
+	default n
+	bool "Samsung A52SXQ KOR SINGLE"
+	depends on SEC_A52SXQ_PROJECT
+	help
+	  Support for Samsung A52SXQ KOR SINGLE device.
+
+config MACH_A52SXQ_CHN_TW
+	default n
+	bool "Samsung A52SXQ CHN TW"
+	depends on SEC_A52SXQ_PROJECT
+	help
+	  Support for Samsung A52SXQ CHN TW device.
+
+config SEC_M52XQ_PROJECT
+	default n
+	bool "Samsung M52XQ Project"
+	help
+	  Support for Samsung M52XQ Project
+
+config MACH_M52XQ_EUR_OPEN
+	default n
+	bool "Samsung M52XQ EUR OPEN"
+	depends on SEC_M52XQ_PROJECT
+	help
+	  Support for Samsung M52XQ EUR OPEN device.
+
+config MACH_M52XQ_SWA_INS
+	default n
+	bool "Samsung M52XQ SWA INS"
+	depends on SEC_M52XQ_PROJECT
+	help
+	  Support for Samsung M52XQ SWA INS device.
+
+config MACH_M52XQ_CIS_SER
+	default n
+	bool "Samsung M52XQ CIS SER"
+	depends on SEC_M52XQ_PROJECT
+	help
+	  Support for Samsung M52XQ CIS SER device.
+

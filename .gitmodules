@@ -7,3 +7,4 @@
 [submodule "files/vendor/samsung"]
 	path = files/vendor/samsung
 	url = https://github.com/paulowesll/android_vendor_samsung_sm7325-common
+
