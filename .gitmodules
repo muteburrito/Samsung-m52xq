@@ -4,4 +4,6 @@
 [submodule "files/device/samsung/m52xq"]
 	path = files/device/samsung/m52xq
 	url = https://github.com/paulowesll/android_device_samsung_m52xq
-
+[submodule "files/vendor/samsung"]
+	path = files/vendor/samsung
+	url = https://github.com/paulowesll/android_vendor_samsung_sm7325-common
